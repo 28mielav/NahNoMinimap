@@ -4,7 +4,7 @@ plugins {
     id("net.minecrell.plugin-yml.bukkit") version "0.5.2"
 }
 
-val versionStr = (System.getenv("VERSION") ?: "0.52").removePrefix("v")
+val versionStr = (System.getenv("VERSION") ?: "0.5").removePrefix("v")
 
 group = "ao1roh.dev.nahnominimap"
 version = versionStr
