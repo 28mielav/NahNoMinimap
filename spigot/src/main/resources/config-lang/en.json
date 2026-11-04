@@ -1,0 +1,16 @@
+{
+  "comment-config-version": "DO NOT change manually.",
+  "comment-language": "Plugin language: ru/en. You can add your own .json file in the lang folder",
+  "comment-global": "Server-wide blocking status (true/false)",
+  "comment-resource-pack": "Resource pack",
+  "comment-resource-enabled": "Customize and rename minimap restriction messages (see wiki)",
+  "comment-provider": "none, itemsadder, nexo, craftengine, oraxen",
+  "comment-alerts": "Administrator alerts",
+  "comment-worlds": "Per-world settings. Global takes priority over Worlds",
+  "comment-worlds-enabled": "Enable per-world settings",
+  "comment-custom-world": "Custom world example:",
+  "comment-rebuild": "Rebuild the resource pack on the reload command",
+  "comment-shared-minimap": "Shared Xaero Minimap and Diorama restriction",
+  "comment-conflux": "Full disabling since CM 0.1.15, only partial before it",
+  "comment-alert-maps": "Which modifications to send alerts for"
+}

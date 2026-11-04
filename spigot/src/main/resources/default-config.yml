@@ -1,0 +1,109 @@
+# НЕ МЕНЯТЬ вручную.
+config-version: 1
+
+# Язык плагина: ru/en, можно добавить свой в формате .json в папку lang
+language: ru
+
+# Статус блокировки на сервере (true/false)
+global:
+  xaero-minimap:
+    blocked: true
+  diorama:
+    blocked: true
+  xaero-worldmap:
+    blocked: true
+  journeymap:
+    blocked: true
+  voxelmap:
+    blocked: true
+  # Полное отключение с CM 0.1.15, до нее лишь частичное
+  conflux-map:
+    blocked: true
+
+# Ресурспак
+resource-pack:
+  # Оформление и переименование сообщений о запрете использования миникарт (см. wiki)
+  enabled: true
+  # none, itemsadder, nexo, craftengine, oraxen
+  provider: none
+  # Пересобирать ресурспак при reload команде
+  rebuild-on-reload: false
+
+# Уведомления администрации
+alerts:
+  enabled: true
+
+  # При каких модификациях уведомлять
+  maps:
+    xaero-minimap: true
+    xaero-worldmap: true
+    journeymap: true
+    voxelmap: true
+    conflux-map: true
+    wmap: true
+    surveyor-framework: true
+
+  chat: true
+  console: true
+  notify-on-rejoin: true
+
+# Настройки отдельных миров. Global раздел имеет приоритет над Worlds
+worlds:
+  # Включить ли настройки для отдельных миров
+  enabled: false
+  world:
+    xaero-minimap:
+      blocked: true
+    diorama:
+      blocked: true
+    xaero-worldmap:
+      blocked: true
+    journeymap:
+      blocked: true
+    voxelmap:
+      blocked: true
+    conflux-map:
+      blocked: true
+
+  world_nether:
+    xaero-minimap:
+      blocked: true
+    diorama:
+      blocked: true
+    xaero-worldmap:
+      blocked: true
+    journeymap:
+      blocked: true
+    voxelmap:
+      blocked: true
+    conflux-map:
+      blocked: true
+
+  world_the_end:
+    xaero-minimap:
+      blocked: true
+    diorama:
+      blocked: true
+    xaero-worldmap:
+      blocked: true
+    journeymap:
+      blocked: true
+    voxelmap:
+      blocked: true
+    conflux-map:
+      blocked: true
+
+# Пример кастомного мира:
+  # custom_better_world:
+    # xaero-minimap:
+      # blocked: true
+    # diorama:
+      # blocked: true
+    # xaero-worldmap:
+      # blocked: true
+    # journeymap:
+      # blocked: true
+    # voxelmap:
+      # blocked: true
+    # conflux-map:
+      # blocked: true

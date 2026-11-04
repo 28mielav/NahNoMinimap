@@ -1,0 +1,16 @@
+{
+  "comment-config-version": "НЕ МЕНЯТЬ вручную.",
+  "comment-language": "Язык плагина: ru/en, можно добавить свой в формате .json в папку lang",
+  "comment-global": "Статус блокировки на сервере (true/false)",
+  "comment-resource-pack": "Ресурспак",
+  "comment-resource-enabled": "Оформление и переименование сообщений о запрете использования миникарт (см. wiki)",
+  "comment-provider": "none, itemsadder, nexo, craftengine, oraxen",
+  "comment-alerts": "Уведомления администрации",
+  "comment-worlds": "Настройки отдельных миров. Global раздел имеет приоритет над Worlds",
+  "comment-worlds-enabled": "Включить ли настройки для отдельных миров",
+  "comment-custom-world": "Пример кастомного мира:",
+  "comment-rebuild": "Пересобирать ресурспак при reload команде",
+  "comment-shared-minimap": "Общий запрет Xaero Minimap и Diorama",
+  "comment-conflux": "Полное отключение с CM 0.1.15, до нее лишь частичное",
+  "comment-alert-maps": "При каких модификациях уведомлять"
+}

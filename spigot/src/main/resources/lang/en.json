@@ -1,0 +1,10 @@
+{
+  "blocked": "MAP and MINIMAP modifications are prohibited on this server!",
+  "reload": "<green>Configuration and language reloaded.",
+  "usage": "<yellow>/nahnominimap reload",
+  "detected": "<yellow>[NahNoMinimap] {player}: detected channel {channel} ({evidence}).",
+  "evidence-packet": "packet",
+  "evidence-register": "channel registration",
+  "no-permission": "<red>You do not have permission to use this command.",
+  "reload-error": "<red>Could not reload the configuration. See the console for details."
+}

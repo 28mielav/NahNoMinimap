@@ -1,0 +1,10 @@
+{
+  "blocked": "<red>Модификации на КАРТЫ и МИНИКАРТЫ запрещены на этом сервере!",
+  "reload": "<green>Конфигурация и язык перезагружены.",
+  "usage": "<yellow>/nahnominimap reload",
+  "detected": "<yellow>[NahNoMinimap] {player}: обнаружен канал {channel} ({evidence}).",
+  "evidence-packet": "пакет",
+  "evidence-register": "регистрация канала",
+  "no-permission": "<red>У тебя нет разрешения на эту команду.",
+  "reload-error": "<red>Не удалось перезагрузить конфиг. Подробности в консоли."
+}
